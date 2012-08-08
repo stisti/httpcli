@@ -1,0 +1,12 @@
+{
+        "name" : "httpcli",
+        "version" : "0.0.1",
+        "description" : "Command line client for HTTP requests",
+        "bin" : { "httpcli" : "httpcli.js" },
+        "dependencies" : { "commander" : ">0.6.0" },
+        "preferGlobal" : true,
+        "private" : true,
+        "engines" : { "node" : ">=0.6.x" },
+        "author" : { "name" : "Sami Tikka"
+                   , "email" : "sami.tikka@iki.fi" }
+}
